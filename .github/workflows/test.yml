@@ -8,5 +8,5 @@ jobs:
       - run: echo "Hello world"      
       - name: Install httpd
         run: sudo apt install apache2 
-      - run: systemctl start apache2
-      - run: systemctl status apache2
+      - run: sudo systemctl start apache2
+      - run: sudo systemctl status apache2
